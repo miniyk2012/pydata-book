@@ -1,7 +1,7 @@
 import numpy as np
 from numpy.linalg import eigvals
 
-@profile
+#@profile
 def run_experiment(niter=100):
     K = 100
     results = []
