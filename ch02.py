@@ -37,3 +37,4 @@ print(data.title.loc[372300])
 mean_ratings = data.pivot_table('rating', index='title',
                                 columns='gender', aggfunc='mean')
 
+
